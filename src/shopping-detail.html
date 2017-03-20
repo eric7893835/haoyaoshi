@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>订单详情</title>
+    <link rel="stylesheet" href="lib/smui/sm.min.css">
+    <link rel="stylesheet" href="lib/smui/sm-extend.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/shopping-detail.css">
+</head>
+<body>
+<div class="page">
+    <!-- 导航 开始 -->
+    <nav class="bar bar-tab">
+        <a class="tab-item " href="shopping-cart.html">
+            <i class="icon iconfont">&#xe6d9;</i>
+            <span class="tab-label">购物篮</span>
+        </a>
+        <a class="tab-item" href="shopping-order.html">
+            <i class="icon iconfont">&#xe625;</i>
+            <span class="tab-label">订单</span>
+        </a>
+        <a class="tab-item" href="#">
+            <span class="tab-label">下单咨询</span>
+        </a>
+    </nav>
+    <!-- 导航 结束 -->
+    <header class="bar bar-nav">
+        <a href="javascript:history.back();" class="button button-link button-nav pull-left">
+            <span class="icon icon-left"></span>
+            返回
+        </a>
+        <h1 class='title'>商品详情</h1>
+    </header>
+    <!-- 商品详情 开始 -->
+    <div class="content">
+        <div class="card demo-card-header-pic">
+            <div valign="bottom" class="card-header color-white no-border no-padding">
+                <img class='card-cover' src="images/adv_01.jpg" alt="">
+            </div>
+            <div class="card-content">
+                <div class="card-content-inner">
+                    <div>
+                        <p class="color-gray">孟鲁丝特纳片</p>
+                        <p class="price"><span>￥30.00</span></p>
+                        <div class="num-con">
+                            <span class="num-text">数量:</span>
+                            <div class="number">
+                                <button type="button" id="sub"><span class="icon iconfont">&#xe608;</span></button>
+                                <input class="shopping-number" id="shopping_number" type="number" value="0" min="0">
+                                <button type="button" id="sum"><span class="icon iconfont">&#xe606;</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="" id="detail">
+            <div class="" id="shopping_img">
+                <img class='card-cover' src="images/adv_01.jpg" alt="">
+                <img class='card-cover' src="images/adv_01.jpg" alt="">
+                <img class='card-cover' src="images/adv_01.jpg" alt="">
+            </div>
+            <div id="introduce">
+                <p>
+                    <b>性　状</b>
+                    本品为浅黄色异形薄膜衣片。
+                </p>
+                <p>
+                    <b>适 应 症</b>
+                    本品适用于1 5岁至1 5岁以上成人哮喘的预防和长期治疗，包括预防白天和夜间的哮喘症状，治疗对阿斯匹林敏感的哮喘患者以及预防运动诱发的支气管收缩。本品适用于15岁及15岁以上成人以减轻季节性过敏性鼻炎引起的症状。
+                </p>
+                <p>
+                    <b>用法用量</b>
+                    每日一次．每次一片(10mg)。哮喘病人应在睡前服用。季节性过
+                    敏性鼻炎病人可根据自身的情况在需要时服药。
+                    同时患有哮喘和季节性过敏性鼻炎的病人应每晚用药一次。
+                    15岁及1 5岁以上患有哮喘和/或季节性过敏性鼻炎的成人患者每日一次，每次一片(1Omg)。
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- 商品详情 结束 -->
+</div>
+<!--[if lt IE 9]>
+<script src="lib/html5shiv.min.js"></script>
+<script src="lib/respond.min.js"></script>
+<![endif]-->
+<script src="js/common.js"></script>
+<script src="js/shopping-detail.js"></script>
+</body>
+</html>

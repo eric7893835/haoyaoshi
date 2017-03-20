@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>我的订单</title>
+    <link rel="stylesheet" href="lib/smui/sm.min.css">
+    <link rel="stylesheet" href="lib/smui/sm-extend.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/edit-address.css">
+</head>
+<body>
+<div class="page">
+    <!-- 标题 开始 -->
+    <header class="bar bar-nav">
+        <a href="recipient-address.html" class="button button-link button-nav pull-left">
+            <span class="icon icon-left"></span>
+            返回
+        </a>
+        <a href="recipient-address.html" class="button button-link button-nav pull-right">删除</a>
+        <h1 class="title">编辑收货地址</h1>
+    </header>
+    <!-- 内容（添加/修改地址） 开始 -->
+    <div class="content">
+        <div class="list-block">
+            <ul>
+                <li class="item-content">
+                    <div class="item-inner">
+                        <div class="item-title">姓名：</div>
+                        <div class="item-begin"><input type="text" name="userName" id="userName" placeholder="请填写收货人姓名"/>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-content">
+                    <div class="item-inner">
+                        <div class="item-title">电话：</div>
+                        <div class="item-begin"><input type="tel" name="phoneNumber" id="phoneNumber" maxlength="11"
+                                                       placeholder="请输入收货手机号码"/></div>
+                    </div>
+                </li>
+                <li class="item-content">
+                    <div class="item-inner">
+                        <div class="item-title">所在地区：</div>
+                        <div class="item-begin"><input type="text" id='picker' placeholder="请选择收货地址"/></div>
+                    </div>
+                </li>
+                <li class="item-content">
+                    <div class="item-inner">
+                        <div class="item-title">详细地址：</div>
+                        <div class="item-begin"><input type="text" id="detailAddress" placeholder="例:16号楼307室"/></div>
+                    </div>
+                </li>
+                <li class="item-content">
+                    <div class="item-inner default-address">
+                        <div class="item-title">设为默认地址</div>
+                        <div class="item-begin">
+                            <div class="item-input">
+                                <label class="label-switch right">
+                                    <input type="checkbox">
+                                    <div class="checkbox"></div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="content-block">
+            <div class="row">
+                <div class="col-100"><a href="recipient-address.html" class="button button-big button-fill button-danger">保存地址</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 内容（添加/修改地址） 结束 -->
+</div>
+
+<!--[if lt IE 9]>
+<script src="lib/html5shiv.min.js"></script>
+<script src="lib/respond.min.js"></script>
+<![endif]-->
+<script src="js/common.js"></script>
+<script src="js/edit-address.js"></script>
+</body>
+</html>

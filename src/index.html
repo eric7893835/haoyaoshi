@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>首页</title>
+    <!--<link rel="stylesheet" href="lib/smui/sm.min.css">-->
+    <!--<link rel="stylesheet" href="lib/smui/sm-extend.min.css">-->
+    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm.min.css">
+    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/??sm.min.css,sm-extend.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div class="page">
+    <header class="bar bar-nav">
+        <a class="button button-link button-nav pull-left back" href="#" data-transition='slide-out'>
+            <span class="icon icon-left"></span>
+        </a>
+        <h1 class="title">首页</h1>
+    </header>
+    <!--搜索框-->
+    <div class="bar bar-header-secondary">
+        <div class="searchbar">
+            <a class="searchbar-cancel">取消</a>
+            <div class="search-input">
+                <label class="icon icon-search" for="search"></label>
+                <input type="search" id='search' placeholder='输入关键字...'/>
+            </div>
+        </div>
+    </div>
+    <nav class="bar bar-tab">
+        <a class="tab-item active" href="index.html">
+            <i class="icon iconfont">&#xe629;</i>
+            <span class="tab-label">首页</span>
+        </a>
+        <a class="tab-item" href="coupons.html">
+            <i class="icon iconfont">&#xe625;</i>
+            <span class="tab-label">优惠券</span>
+        </a>
+        <a class="tab-item" href="shopping-cart.html">
+            <i class="icon iconfont">&#xe6d9;</i>
+            <span class="tab-label">购物篮</span>
+        </a>
+        <a class="tab-item" href="personal-center.html">
+            <i class="icon iconfont">&#xe65d;</i>
+            <span class="tab-label">我</span>
+        </a>
+    </nav>
+    <div class="content">
+        <!-- 轮播图 -->
+        <div class="swiper-container" data-space-between='10'>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/adv_01.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/adv_01.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images/adv_01.jpg" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <!--图片-->
+        <div class="card demo-card-header-pic">
+            <div valign="bottom" class="card-header color-white no-border no-padding">
+                <img class='card-cover' src="./images/banner_01.jpg" alt="">
+            </div>
+        </div>
+        <!--栅格-->
+        <div class="content-padded grid-demo menu">
+            <div class="row">
+                <div class="col-20">
+                    <i class="iconfont">&#xe600;</i>
+                    <span>附近门店</span>
+                </div>
+                <div class="col-20">
+                    <i class="iconfont">&#xe650;</i>
+                    <span>感冒清热</span>
+                </div>
+                <div class="col-20">
+                    <i class="iconfont">&#xe6d0;</i>
+                    <span>美容减肥</span>
+                </div>
+                <div class="col-20">
+                    <i class="iconfont">&#xe718;</i>
+                    <span>保健食品</span>
+                </div>
+                <div class="col-20">
+                    <i class="iconfont">&#xe679;</i>
+                    <span>儿科用药</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-20">
+                    <i class="iconfont">&#xe67b;</i>
+                    <span>消化系统</span>
+                </div>
+                <div class="col-20">
+                    <i class="iconfont">&#xe66e;</i>
+                    <span>皮肤科类</span>
+                </div>
+                <div class="col-20">
+                    <i class="iconfont">&#xe600;</i>
+                    <span>维生素类</span>
+                </div>
+                <div class="col-20">
+                    <i class="iconfont">&#xe676;</i>
+                    <span>妇科用药</span>
+                </div>
+                <div class="col-20">
+                    <i class="iconfont">&#xe607;</i>
+                    <span>成人用品</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-20">
+                    <i class="iconfont">&#xe626;</i>
+                    <span>外用药类</span>
+                </div>
+                <div class="col-20">
+                    <i class="iconfont">&#xe693;</i>
+                    <span>心脑血管</span>
+                </div>
+                <div class="col-20">
+                    <i class="iconfont">&#xe6b7;</i>
+                    <span>泌尿系统</span>
+                </div>
+                <div class="col-20">
+                    <i class="iconfont">&#xe65e;</i>
+                    <span>风湿伤骨</span>
+                </div>
+                <div class="col-20">
+                    <i class="iconfont">&#xe62b;</i>
+                    <span>五官类</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-20">
+                    <i class="iconfont">&#xe60a;</i>
+                    <span>日化用品</span>
+                </div>
+                <div class="col-20">
+                    <i class="iconfont">&#xe6d3;</i>
+                    <span>中药养生</span>
+                </div>
+                <div class="col-20">
+                    <i class="iconfont">&#xe628;</i>
+                    <span>医疗器械</span>
+                </div>
+            </div>
+        </div>
+        <!--东郊大药房-->
+        <div class="content-padded grid-demo">
+            <header>
+                <span>东礁大药房</span>
+                <span>限时抢购</span>
+                <a class="right" href="buying.html">显示更多</a>
+            </header>
+            <div class="row">
+                <div class="col-25">
+                    <img src="./images/prodct_01.jpg" alt="">
+                </div>
+                <div class="col-25">
+                    <img src="./images/prodct_02.jpg" alt="">
+                </div>
+                <div class="col-25">
+                    <img src="./images/prodct_03.jpg" alt="">
+                </div>
+                <div class="col-25">
+                    <img src="./images/prodct_04.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <!--banner-->
+        <img class="banner-second" src="./images/banner_02.jpg" alt="">
+        <div class="content-padded grid-demo menu">
+            <div class="row">
+                <div class="col-50">
+                    <img src="./images/sub_adv01.jpg" alt="">
+                </div>
+                <div class="col-50">
+                    <img src="./images/sub_adv02.jpg" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-50">
+                    <img src="./images/sub_adv03.jpg" alt="">
+                </div>
+                <div class="col-50">
+                    <img src="./images/sub_adv04.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+<!--[if lt IE 9]>
+<script src="lib/html5shiv.min.js"></script>
+<script src="lib/respond.min.js"></script>
+<![endif]-->
+<!--<script type='text/javascript' src='lib/smui/sm-extend.min.js' charset='utf-8'></script>-->
+<script src="js/common.js"></script>
+<script src="js/index.js"></script>
+
+</html>

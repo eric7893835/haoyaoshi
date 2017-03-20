@@ -1,0 +1,60 @@
+
+.sprite {
+  background-image: url('../images/sprite.png');
+}
+
+.sprite-prodct_03 {
+  background-position: -0px -0px;
+  width: 189px;
+  height: 209px;
+}
+.sprite-sub_adv04 {
+  background-position: -0px -209px;
+  width: 359px;
+  height: 209px;
+}
+.sprite-sub_adv03 {
+  background-position: -0px -418px;
+  width: 359px;
+  height: 209px;
+}
+.sprite-prodct_01 {
+  background-position: -0px -627px;
+  width: 189px;
+  height: 209px;
+}
+.sprite-prodct_02 {
+  background-position: -0px -836px;
+  width: 189px;
+  height: 209px;
+}
+.sprite-banner_01 {
+  background-position: -0px -1045px;
+  width: 759px;
+  height: 209px;
+}
+.sprite-prodct_04 {
+  background-position: -0px -1254px;
+  width: 188px;
+  height: 209px;
+}
+.sprite-sub_adv01 {
+  background-position: -0px -1463px;
+  width: 359px;
+  height: 209px;
+}
+.sprite-sub_adv02 {
+  background-position: -0px -1672px;
+  width: 359px;
+  height: 209px;
+}
+.sprite-banner_02 {
+  background-position: -0px -1881px;
+  width: 759px;
+  height: 304px;
+}
+.sprite-adv_01 {
+  background-position: -0px -2185px;
+  width: 759px;
+  height: 348px;
+}

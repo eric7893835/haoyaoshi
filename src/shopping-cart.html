@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>购物篮</title>
+    <link rel="stylesheet" href="lib/smui/sm.min.css">
+    <link rel="stylesheet" href="lib/smui/sm-extend.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/shopping-cart.css">
+</head>
+<body>
+<div class="page">
+    <header class="bar bar-nav">
+        <a class="button button-link button-nav pull-left back" href="#" data-transition='slide-out'>
+            <span class="icon icon-left"></span>
+        </a>
+        <h1 class="title">购物篮</h1>
+    </header>
+    <nav class="bar bar-tab">
+        <a class="tab-item " href="index.html">
+            <i class="icon iconfont">&#xe629;</i>
+            <span class="tab-label">首页</span>
+        </a>
+        <a class="tab-item" href="coupons.html">
+            <i class="icon iconfont">&#xe625;</i>
+            <span class="tab-label">优惠券</span>
+        </a>
+        <a class="tab-item active" href="shopping-cart.html">
+            <i class="icon iconfont">&#xe6d9;</i>
+            <span class="tab-label">购物篮</span>
+        </a>
+        <a class="tab-item" href="personal-center.html">
+            <i class="icon iconfont">&#xe65d;</i>
+            <span class="tab-label">我</span>
+        </a>
+    </nav>
+    <div class="content">
+        <div class="product-wrap">
+            <ul class="product-list">
+                <li class="product-item">
+                    <div class="product-title">
+                        <i class="iconfont">&#xe65f;</i>
+                        已购买满200元，可领取积分
+                        <a href="product-list.html" class="look">
+                            再逛逛
+                            <i class="iconfont">&#xe657;</i>
+                        </a>
+                        <div class="examine t-right">
+                            丨<a href="product-details.html">查看商品</a>
+                        </div>
+                    </div>
+                    <div class="product-info-box">
+                        <div class="options">
+                            <input type="checkbox" name="pro" id="proid-01" class="regular-checkbox" value="proid">
+                            <label for="proid-01"></label>
+                        </div>
+
+                        <a href="#" class="pro-pic">
+                            <img src="images/timg.jpg" alt="" style="width: 5rem">
+                        </a>
+                        <div class="pro-box">
+                            <div class="pro-name">
+                                <a href="#" class="">抗震颤麻痹药</a>
+                            </div>
+                            <div class="result">
+                                <span class="price-box">￥ <span class="price">78.00</span></span>
+                                <input type="hidden" class="unit-price" value="78.00">
+                                <div>
+                                    <button type="button" class="sub">
+                                        <i class="iconfont">&#xe608;</i>
+                                    </button>
+                                    <input type="number" class="quantity t-center" name="quantity" value="1">
+                                    <button type="button" class="add">
+                                        <i class="iconfont">&#xe606;</i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="operation">
+                                <button type="button" class="remove-pro">
+                                    <i class="iconfont">&#xe602;</i>
+                                    删除
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="product-item">
+                    <div class="product-title">
+                        <i class="iconfont">&#xe65f;</i>
+                        已购买满200元，可领取积分
+                        <a href="product-list.html" class="look">
+                            再逛逛
+                            <i class="iconfont">&#xe657;</i>
+                        </a>
+                        <div class="examine t-right">
+                            丨<a href="product-details.html">查看商品</a>
+                        </div>
+                    </div>
+                    <div class="product-info-box">
+                        <div class="options">
+                            <input type="checkbox" name="pro" id="proid-01" class="regular-checkbox" value="proid">
+                            <label for="proid-01"></label>
+                        </div>
+
+                        <a href="#" class="pro-pic">
+                            <img src="images/timg.jpg" alt="" style="width: 5rem">
+                        </a>
+                        <div class="pro-box">
+                            <div class="pro-name">
+                                <a href="#" class="">抗震颤麻痹药</a>
+                            </div>
+                            <div class="result">
+                                <span class="price-box">￥ <span class="price">78.00</span></span>
+                                <input type="hidden" class="unit-price" value="78.00">
+                                <div>
+                                    <button type="button" class="sub">
+                                        <i class="iconfont">&#xe608;</i>
+                                    </button>
+                                    <input type="number" class="quantity t-center" name="quantity" value="1">
+                                    <button type="button" class="add">
+                                        <i class="iconfont">&#xe606;</i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="operation">
+                                <button type="button" class="remove-pro">
+                                    <i class="iconfont">&#xe602;</i>
+                                    删除
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="product-item">
+                    <div class="product-title">
+                        <i class="iconfont">&#xe65f;</i>
+                        已购买满200元，可领取积分
+                        <a href="product-list.html" class="look">
+                            再逛逛
+                            <i class="iconfont">&#xe657;</i>
+                        </a>
+                        <div class="examine t-right">
+                            丨<a href="product-details.html">查看商品</a>
+                        </div>
+                    </div>
+                    <div class="product-info-box">
+                        <div class="options">
+                            <input type="checkbox" name="pro" id="proid-01" class="regular-checkbox" value="proid">
+                            <label for="proid-01"></label>
+                        </div>
+
+                        <a href="#" class="pro-pic">
+                            <img src="images/timg.jpg" alt="" style="width: 5rem">
+                        </a>
+                        <div class="pro-box">
+                            <div class="pro-name">
+                                <a href="#" class="">抗震颤麻痹药</a>
+                            </div>
+                            <div class="result">
+                                <span class="price-box">￥ <span class="price">78.00</span></span>
+                                <input type="hidden" class="unit-price" value="78.00">
+                                <div>
+                                    <button type="button" class="sub">
+                                        <i class="iconfont">&#xe608;</i>
+                                    </button>
+                                    <input type="number" class="quantity t-center" name="quantity" value="1">
+                                    <button type="button" class="add">
+                                        <i class="iconfont">&#xe606;</i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="operation">
+                                <button type="button" class="remove-pro">
+                                    <i class="iconfont">&#xe602;</i>
+                                    删除
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="product-item">
+                    <div class="product-title">
+                        <i class="iconfont">&#xe65f;</i>
+                        已购买满200元，可领取积分
+                        <a href="product-list.html" class="look">
+                            再逛逛
+                            <i class="iconfont">&#xe657;</i>
+                        </a>
+                        <div class="examine t-right">
+                            丨<a href="product-details.html">查看商品</a>
+                        </div>
+                    </div>
+                    <div class="product-info-box">
+                        <div class="options">
+                            <input type="checkbox" name="pro" id="proid-01" class="regular-checkbox" value="proid">
+                            <label for="proid-01"></label>
+                        </div>
+
+                        <a href="#" class="pro-pic">
+                            <img src="images/timg.jpg" alt="" style="width: 5rem">
+                        </a>
+                        <div class="pro-box">
+                            <div class="pro-name">
+                                <a href="#" class="">抗震颤麻痹药</a>
+                            </div>
+                            <div class="result">
+                                <span class="price-box">￥ <span class="price">78.00</span></span>
+                                <input type="hidden" class="unit-price" value="78.00">
+                                <div>
+                                    <button type="button" class="sub">
+                                        <i class="iconfont">&#xe608;</i>
+                                    </button>
+                                    <input type="number" class="quantity t-center" name="quantity" value="1">
+                                    <button type="button" class="add">
+                                        <i class="iconfont">&#xe606;</i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="operation">
+                                <button type="button" class="remove-pro">
+                                    <i class="iconfont">&#xe602;</i>
+                                    删除
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="product-item">
+                    <div class="product-title">
+                        <i class="iconfont">&#xe65f;</i>
+                        已购买满200元，可领取积分
+                        <a href="product-list.html" class="look">
+                            再逛逛
+                            <i class="iconfont">&#xe657;</i>
+                        </a>
+                        <div class="examine t-right">
+                            丨<a href="product-details.html">查看商品</a>
+                        </div>
+                    </div>
+                    <div class="product-info-box">
+                        <div class="options">
+                            <input type="checkbox" name="pro" id="proid-01" class="regular-checkbox" value="proid">
+                            <label for="proid-01"></label>
+                        </div>
+
+                        <a href="#" class="pro-pic">
+                            <img src="images/timg.jpg" alt="" style="width: 5rem">
+                        </a>
+                        <div class="pro-box">
+                            <div class="pro-name">
+                                <a href="#" class="">抗震颤麻痹药</a>
+                            </div>
+                            <div class="result">
+                                <span class="price-box">￥ <span class="price">78.00</span></span>
+                                <input type="hidden" class="unit-price" value="78.00">
+                                <div>
+                                    <button type="button" class="sub">
+                                        <i class="iconfont">&#xe608;</i>
+                                    </button>
+                                    <input type="number" class="quantity t-center" name="quantity" value="1">
+                                    <button type="button" class="add">
+                                        <i class="iconfont">&#xe606;</i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="operation">
+                                <button type="button" class="remove-pro">
+                                    <i class="iconfont">&#xe602;</i>
+                                    删除
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <aside class="account ">
+                <div class="options left">
+                    <input type="checkbox" name="pro" id="select-all" class="regular-checkbox" value="proid">
+                    <label for="select-all"></label>
+                    <span>全选</span>
+                </div>
+                <div class="total left">
+                    <h3>合计:￥1219.00</h3>
+                    <p>总额:￥12198.00 <span>立减￥0.00</span></p>
+                </div>
+                <div class="account-btn right t-center">
+                    去结算
+                </div>
+            </aside>
+        </div>
+
+    </div>
+</div>
+</body>
+<!--[if lt IE 9]>
+<script src="lib/html5shiv.min.js"></script>
+<script src="lib/respond.min.js"></script>
+<![endif]-->
+<script src="js/common.js"></script>
+<script src="js/personal-center.js"></script>
+</html>
