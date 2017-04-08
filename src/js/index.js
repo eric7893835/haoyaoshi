@@ -1,7 +1,9 @@
-require('./public');
-
-$.init();
+const $ = require('zepto');
+require('sm');
+require('smPicker');
+require('smextend');
 $(function(){
+  $.init();
   /*=== 默认为 standalone ===*/
   var myPhotoBrowserStandalone = $.photoBrowser({
     photos : [

@@ -45,7 +45,11 @@ module.exports = {
         'share':'./src/js/share.js',
         'shopping-detail':'./src/js/shopping-detail.js',
         'shopping-order':'./src/js/shopping-order.js',
-        'shopping-list':'./src/js/shopping-list.js'
+        'shopping-list':'./src/js/shopping-list.js',
+        'guessing':'./src/js/guessing.js',
+        'register-pwd':'./src/js/register-pwd.js',
+        'vip':'./src/js/vip.js',
+        'select-address':'./src/js/select-address.js'
 },
     // 插件项
     plugins: plugins,

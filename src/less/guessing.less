@@ -1,0 +1,122 @@
+@import "variables";
+.content{
+  background-color: #97DC72;
+  .activity-banner-box{
+    border-bottom: 4px solid #046202;
+    img{
+      width: 100%;
+      margin: 0;
+    }
+  }
+  .activity-wrap{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    .activity-title{
+      margin: 0;
+      height: 45px;
+      background: url("../images/title-bg.png") center 0 no-repeat;
+      background-size: contain;
+      font-size: 18px;
+      color: white;
+      text-align: center;
+      line-height: 45px;
+      text-indent: 1em;
+    }
+    .question{
+      text-align: center;
+      color: yellow;
+      padding-left: .8rem;
+      padding-right: .8rem;
+      margin: 0;
+      margin-top: .5rem;
+    }
+  }
+
+  .option-item{
+    box-sizing: border-box;
+    height: 10rem;
+    .options-img{
+      box-sizing: border-box;
+      padding: 0.5rem;
+      .border{
+        margin: 0 auto;
+        padding: .5rem;
+        background: url("../images/border-bg.png") 0 0 no-repeat;
+        background-size: 100% 100%;
+        text-align: center;
+        img{
+          width: 95%;
+        }
+      }
+    }
+    .operator-box{
+      h5{
+        color: yellow;
+        text-align: center;
+        font-weight: 400;
+        font-size: .8rem;
+      }
+      div{
+        text-align: center;
+        button{
+          border-radius: 5px;
+          margin: 0 auto;
+          width: 5em;
+          font-size: .8rem;
+          color: white;
+          background-image: -webkit-gradient(linear,left top,right bottom, color-stop(0, #089813), color-stop(1, #1CA527));
+        }
+      }
+      p{
+        color: white;
+        text-align: center;
+        margin: 0;
+        margin-top: 10px;
+        font-size: .6rem;
+      }
+    }
+  }
+  .introduction-wrap,.list-wrap{
+    background-color: #609C2B;
+    -moz-box-shadow:2px 2px 9px rbga(0,0,0,.5); -webkit-box-shadow:2px 2px 9px rbga(0,0,0,.5); box-shadow:2px 2px 9px rbga(0,0,0,.5);
+    margin: 10px 20px;
+    border-radius: 5px;
+    padding-bottom: 1rem;
+    h3{
+      background-color: #D5E85A;
+      color: green;
+      height: 2em;
+      line-height: 2em;
+      text-align: center;
+      font-size: .8rem;
+    }
+    p{
+      box-sizing: border-box;
+      color: white;
+      font-size: .6rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+    .button{
+      margin: 0 auto;
+      background-color: #D5E85A;
+      color: green;
+      border: none;
+      width: 90%;
+    }
+  }
+  .list-wrap{
+    div{
+      table{
+        font-size: .8rem;
+        margin: 10px auto;
+        width: 100%;
+        color: white;
+        td{
+          line-height: 2em;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
