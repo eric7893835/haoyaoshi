@@ -49,7 +49,11 @@ module.exports = {
         'guessing':'./src/js/guessing.js',
         'register-pwd':'./src/js/register-pwd.js',
         'vip':'./src/js/vip.js',
-        'select-address':'./src/js/select-address.js'
+        'select-address':'./src/js/select-address.js',
+        'vip-grade':'./src/js/vip-grade.js',
+        'vip-details':'./src/js/vip-grade.js',
+        'shop':'./src/js/shop.js',
+        'conversion-list':'./src/js/conversion-list.js'
 },
     // 插件项
     plugins: plugins,

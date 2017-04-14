@@ -1,0 +1,46 @@
+@import "variables";
+
+.shop-banner{
+  img{
+    width: 100%;
+  }
+}
+.shop-box{
+  .shop-title{
+    color: #FF6600;
+    position: relative;
+    padding-left: 1em;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: white;
+    &:before{
+      content: "";
+      display: inline-block;
+      height: 18px;
+      width: 5px;
+      left: 10px;
+      top: 12px;
+      position: absolute;
+      background-color: #FF6600;
+      margin-right: 10px;
+    }
+  }
+  .product-list{
+    background-color: white;
+    overflow: hidden;
+    .product-item{
+      float: left;
+      width: 33%;
+      text-align: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+  .list-block{
+    margin: 0;
+  }
+  .emphasis{
+    color:#FF6600 ;
+    font-weight: 700;
+  }
+}
