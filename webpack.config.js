@@ -53,7 +53,11 @@ module.exports = {
         'vip-grade':'./src/js/vip-grade.js',
         'vip-details':'./src/js/vip-grade.js',
         'shop':'./src/js/shop.js',
-        'conversion-list':'./src/js/conversion-list.js'
+        'conversion-list':'./src/js/conversion-list.js',
+        'member-info':'./src/js/member-info.js',
+        'record-edit':'./src/js/record-edit.js',
+        'alter-info':'./src/js/record-edit.js',
+        'doctor-consult':'./src/js/doctor-consult.js'
 },
     // 插件项
     plugins: plugins,

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>打卡</title>
+    <link rel="stylesheet" href="lib/smui/sm.min.css">
+    <link rel="stylesheet" href="lib/smui/sm-extend.min.css">
+
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/punchClock.css">
+    <link rel="stylesheet" href="lib/lottery/rotary4X3.css">
+</head>
+<body>
+<div class="page">
+    <header class="bar bar-nav">
+        <a class="button button-link button-nav pull-left back" href="#" data-transition='slide-out'>
+            <span class="icon icon-left"></span>
+        </a>
+        <h1 class="title">每日签到</h1>
+    </header>
+    <div class="content">
+        <section id="card-box">
+            <div id="lottery">
+                <table class="lazyimg" border="0" cellpadding="0" cellspacing="0">
+                    <tr class="lottery-group">
+                        <td class="lottery-unit td_1 active" >
+                            <div >
+                                <img id="img1" src="images/1.png"/>
+                            </div>
+                        </td>
+                        <td class="lottery-unit td_2">
+                            <div>
+                                <img id="img2" src="images/5.png"/>
+                            </div>
+                        </td>
+                        <td class="lottery-unit td_3">
+                            <div>
+                                <img id="img3" src="images/3.png"/>
+                            </div>
+                        </td>
+                        <td class="lottery-unit td_10">
+                            <div>
+                                <img id="img4" src="images/4.png"/>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="lottery-group">
+                        <td class="lottery-unit td_4">
+                            <div>
+                                <img id="img5" src="images/5.png"/>
+                            </div>
+                        </td>
+                        <td colspan="2" class="go">
+                            <a href="javascript:void(0)">
+                                <img src="images/x.gif"/>
+                            </a>
+                        </td>
+                        <td class="lottery-unit td_6">
+                            <div>
+                                <img id="img6" src="images/6.png"/>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="lottery-group">
+                        <td class="lottery-unit td_7">
+                            <div>
+                                <img id="img7" src="images/3.png"/>
+                            </div>
+                        </td>
+                        <td class="lottery-unit td_8">
+                            <div>
+                                <img id="img8" src="images/8.png"/>
+                            </div>
+                        </td>
+                        <td class="lottery-unit td_9">
+                            <div >
+                                <img id="img9" src="images/9.png"/>
+                            </div>
+                        </td>
+                        <td class="lottery-unit td_5">
+                            <div>
+                                <img id="img10" src="images/10.png"/>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <div class="content-block">
+            <div class="row">
+                <div class="col-100"><a href="index.html" class="button button-big button-fill button-danger">进入首页</a></div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<!--[if lt IE 9]>
+<script src="lib/html5shiv.min.js"></script>
+<script src="lib/respond.min.js"></script>
+<![endif]-->
+<script src="js/common.js"></script>
+<script src="js/index.js"></script>
+<script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm-extend.min.js' charset='utf-8'></script>
+<script src="lib/jquery-1.8.3.min.js" type="text/javascript/javascrt" charset="utf-8"></script>
+<script src="lib/lottery/lottery.js"></script>
+<script src="lib/lottery/rotary4X3.js"></script>
+</html>

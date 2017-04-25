@@ -8,4 +8,10 @@ require('smextend');
 
 $(function(){
     $.init();
+    $('.send').click(function(){
+        $('.share-masking').show();
+    });
+    $(".share-masking").click(function(){
+        $('.share-masking').hide();
+    });
 });

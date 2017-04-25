@@ -51,7 +51,7 @@
     }
     .operator-box{
       h5{
-        color: yellow;
+        color: #fff;
         text-align: center;
         font-weight: 400;
         font-size: .8rem;
@@ -76,7 +76,7 @@
       }
     }
   }
-  .introduction-wrap,.list-wrap{
+  .introduction-wrap,.list-wrap,.select{
     background-color: #609C2B;
     -moz-box-shadow:2px 2px 9px rbga(0,0,0,.5); -webkit-box-shadow:2px 2px 9px rbga(0,0,0,.5); box-shadow:2px 2px 9px rbga(0,0,0,.5);
     margin: 10px 20px;
@@ -104,6 +104,16 @@
       border: none;
       width: 90%;
     }
+  }
+  .select{
+    display: none;
+    p{
+      font-size: 1rem;
+      text-align: center;
+    }
+  }
+  .select.active{
+    display: block;
   }
   .list-wrap{
     div{

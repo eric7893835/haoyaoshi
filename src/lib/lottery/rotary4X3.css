@@ -1,0 +1,31 @@
+table { border-collapse:collapse; border-spacing:0;}
+* {
+    tap-highlight-color:rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+    -ms-tap-highlight-color:rgba(0, 0, 0, 0);
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    box-sizing:border-box;
+}
+input, textarea { outline:0; resize:none; -webkit-appearance: none;}
+img{vertical-align: middle;}
+a{display: block; color: #333; text-decoration: none;}
+
+
+
+
+#lottery{height:225px;width:300px;padding:14px 18px;margin: 50px auto;background: url('../../images/sudoku_bg.png') no-repeat;background-size: 100%;}
+#lottery table td{width:66px;height:66px;text-align:center;vertical-align:middle;font-size:24px;color:#333;font-index:-999}
+#lottery table td a{width:66px;height:66px;line-height:63px;display:block;text-decoration:none;}
+#lottery table td img{width: 100%}
+
+/*给苹果6和6P做下简单的适配*/
+@media (min-width: 350px) {
+    #lottery{height:270px;width:360px;padding:17px 22px;}
+    #lottery table td{width:79px;height:79px;}
+    #lottery table td a{width:79px;height:79px;line-height:76px;}
+}
+#lottery table td.active{background:url(../../images/sudoku_active.png) no-repeat;}
+
+
